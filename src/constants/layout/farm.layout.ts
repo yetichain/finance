@@ -1,0 +1,5 @@
+export const FARM_DESKTOP_MEDIA = '1350px'
+export const FARM_LAPTOP_MEDIA = '1024px'
+export const FARM_TABLET_MEDIA = '768px'
+export const FARM_MOBILE_MEDIA = '550px'
+export const FARM_EXT_MOBILE_MEDIA = '365px'
