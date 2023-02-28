@@ -1,0 +1,70 @@
+{
+  "name": "yeti",
+  "timestamp": "2021-03-01T15:41:29.665Z",
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "/images/coins/wbnb.png",
+  "keywords": ["yeti", "default"],
+  "tokens": [
+    {
+      "name": "YETI Chain",
+      "symbol": "YET",
+      "address": "0xC631d214F68e5FD97Fe610736c6692C5533a2F20",
+      "chainId": 256,
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/yetichain/yetichain/main/images/yeti-icon.svg"
+    },
+    {
+      "name": "Wrapped Heco",
+      "symbol": "WHT",
+      "address": "0x7aF326B6351C8A9b8fb8CD205CBe11d4Ac5FA836",
+      "chainId": 256,
+      "decimals": 18,
+      "logoURI": "/images/coins/WHT.png"
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x4D3D711853a4A25AE1D17347a97253A66Ed63D18",
+      "chainId": 256,
+      "decimals": 6,
+      "logoURI": "/images/coins/USDT.png"
+    },
+    {
+      "name": "DAI",
+      "symbol": "DAI",
+      "address": "0xc73cbC85C8Df0e7b40Cc05f8B82De4a7ae8F8813",
+      "chainId": 256,
+      "decimals": 6,
+      "logoURI": "/images/coins/DAI.png"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x9a33Ddd074Cd1275DCF6aDe8920675FD8fade75E",
+      "chainId": 256,
+      "decimals": 6,
+      "logoURI": "/images/coint/USDC.png"
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "address": "0x7bA4b2383255b891D51D1702023904dcEf6d952a",
+      "chainId": 256,
+      "decimals": 6,
+      "logoURI": "/images/coint/WBTC.png"
+    },
+    {
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "address": "0x0A81c899EEacf64c5D1EA4418B82Dd6C8E22154d",
+      "chainId": 256,
+      "decimals": 6,
+      "logoURI": "/images/coins/UNI.png"
+    }
+  ]
+}

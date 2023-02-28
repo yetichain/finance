@@ -1,0 +1,78 @@
+{
+  "name": "yeti",
+  "timestamp": "2021-03-01T15:41:29.665Z",
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "/images/coins/wbnb.png",
+  "keywords": ["alium", "default"],
+  "tokens": [
+    {
+      "name": "YETI Chain",
+      "symbol": "YET",
+      "address": "0xC631d214F68e5FD97Fe610736c6692C5533a2F20",
+      "chainId": 97,
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/yetichain/yetichain/main/images/yeti-icon.svg"
+    },
+    {
+      "name": "XXX1 Swap (YETI Test)",
+      "symbol": "XXX1",
+      "address": "0xB42A8e21f983A56d1e8D1b8f83CE51A9Eb0241FC",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/ETH.png"
+    },
+    {
+      "name": "USDT (YETI Test)",
+      "symbol": "USDT (Test)",
+      "address": "0x1138ebb3101f557b28326a28b6f192c7fecc95f7",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/USDT.png"
+    },
+    {
+      "name": "USDT(Testnet)",
+      "symbol": "USDT(Testnet)",
+      "address": "0xA11c8D9DC9b66E209Ef60F0C8D969D3CD988782c",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/USDT.png"
+    },
+    {
+      "name": "BUSD(Testnet)",
+      "symbol": "BUSD(Testnet)",
+      "address": "0x8301F2213c0eeD49a7E28Ae4c3e91722919B8B47",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/USDT.png"
+    },
+    {
+      "name": "DAI (YETI Test)",
+      "symbol": "DAI (Test)",
+      "address": "0x618549d304828c77dcb590d02e3641b03e6f4176",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/DAI.png"
+    },
+    {
+      "name": "WETH Token (YETI Test)",
+      "symbol": "WETH (Test)",
+      "address": "0x12BE304f9b7a3B624213b5DBaC1822F75E005DAF",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/ETH.png"
+    },
+    {
+      "name": "WBNB Token (YETI Test)",
+      "symbol": "WBNB (Test)",
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "/images/coins/wbnb.png"
+    }
+  ]
+}

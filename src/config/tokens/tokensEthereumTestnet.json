@@ -1,0 +1,62 @@
+{
+  "name": "yeti",
+  "timestamp": "2021-03-01T15:41:29.665Z",
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "/images/coins/wbnb.png",
+  "keywords": ["yeti", "default"],
+  "tokens": [
+    {
+      "address": "0xC631d214F68e5FD97Fe610736c6692C5533a2F20",
+      "chainId": 4,
+      "name": "YETI Chain",
+      "symbol": "YET",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/yetichain/yetichain/main/images/yeti-icon.svg"
+    },
+    {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "chainId": 4,
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "address": "0x54a472C96b01f8639326D49Ef3eD4B9a78C3ba63",
+      "chainId": 4,
+      "name": "TETHER",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    },
+    {
+      "address": "0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11",
+      "chainId": 4,
+      "name": "Pegged BNB",
+      "symbol": "pegBNB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    },
+    {
+      "address": "0x4D3D711853a4A25AE1D17347a97253A66Ed63D18",
+      "chainId": 4,
+      "name": "Pegged SOL",
+      "symbol": "pegSOL",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    },
+    {
+      "address": "0xF92dC46c2F373480cbC7Dacb0A003C4a2c23ea78",
+      "chainId": 4,
+      "name": "Pegged DOT",
+      "symbol": "pegDOT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "yeti",
+  "timestamp": "2021-03-01T15:41:29.665Z",
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "/images/coins/wbnb.png",
+  "keywords": ["alium", "default"],
+  "tokens": [
+    {
+      "name": "YETI Chain",
+      "symbol": "YET",
+      "address": "0xC631d214F68e5FD97Fe610736c6692C5533a2F20",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/yetichain/yetichain/main/images/yeti-icon.svg"
+    },
+    {
+      "name": "Mock USDT",
+      "symbol": "USDT",
+      "address": "0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    },
+    {
+      "name": "Pegged BNB",
+      "symbol": "pegBNB",
+      "address": "0x4D3D711853a4A25AE1D17347a97253A66Ed63D18",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    },
+    {
+      "name": "Pegged SOL",
+      "symbol": "pegSOL",
+      "address": "0xF92dC46c2F373480cbC7Dacb0A003C4a2c23ea78",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    },
+    {
+      "name": "Pegged DOT",
+      "symbol": "pegDOT",
+      "address": "0x9D35B7afFf83Fd7EA2c9ed16E1C08af27aC07D18",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    },
+    {
+      "name": "Wrapped Matic",
+      "symbol": "WMATIC",
+      "address": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x7C38870e93A1f959cB6c533eB10bBc3e438AaC11/logo.png"
+    }
+  ]
+}
