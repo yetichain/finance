@@ -1,0 +1,18 @@
+FROM node:14-alpine
+
+WORKDIR /app
+
+RUN apk add libc6-compat git
+
+ARG APP_BSCSCAN_API_KEY
+ENV APP_BSCSCAN_API_KEY ${APP_BSCSCAN_API_KEY}
+
+COPY package.json yarn.lock ./
+RUN yarn install --frozen-lockfile
+
+COPY . .
+RUN yarn build:as-dev
+
+ENV NEXT_TELEMETRY_DISABLED 1
+
+CMD ["yarn", "start:as-dev"]

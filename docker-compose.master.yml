@@ -1,0 +1,21 @@
+version: '3.5'
+
+networks:
+  net:
+    driver: overlay
+    attachable: true
+
+services:
+  frontend:
+    image: ghcr.io/alium-finance/alium-frontend:master
+    deploy:
+      replicas: 4
+      update_config:
+        order: start-first
+        parallelism: 4
+      restart_policy:
+        condition: any
+        delay: 5s
+        window: 120s
+    ports:
+      - 3000:3000
