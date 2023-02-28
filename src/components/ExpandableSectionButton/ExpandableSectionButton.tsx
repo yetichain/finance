@@ -1,0 +1,36 @@
+import { ChevronDownIcon, ChevronUpIcon, Text } from 'alium-uikit/src'
+import { FC } from 'react'
+import styled from 'styled-components'
+
+export interface ExpandableSectionButtonProps {
+  onClick?: () => void
+  expanded?: boolean
+}
+
+const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  svg {
+    fill: ${({ theme }) => theme.colors.primary};
+  }
+`
+
+const ExpandableSectionButton: FC<ExpandableSectionButtonProps> = ({ onClick, expanded }) => {
+  return (
+    <Wrapper aria-label='Hide or show expandable content' role='button' onClick={() => onClick()}>
+      <Text color='primary' bold>
+        {expanded ? 'Hide' : 'Details'}
+      </Text>
+      {expanded ? <ChevronUpIcon /> : <ChevronDownIcon />}
+    </Wrapper>
+  )
+}
+
+ExpandableSectionButton.defaultProps = {
+  expanded: false,
+}
+
+export default ExpandableSectionButton
