@@ -1,7 +1,7 @@
 # Contributing to the YETI ecosystem 🥞
 
 Thanks for taking the time to contribute !
-You can start by reading our [Contribution guidelines](https://docs.alium.finance/code/contributing) first.
+You can start by reading our [Contribution guidelines](https://docs.yetichain.com) first.
 
 ## Setup
 
