@@ -1,0 +1,14 @@
+query infoHeadline {
+  bundles(first: 1) {
+    bnbPrice
+  }
+
+  aliumFactories(first: 1) {
+    totalPairs
+  }
+
+  aliumDayDatas(first: 2, orderBy: date, orderDirection: desc) {
+    totalTransactions
+    dailyVolumeUSD
+  }
+}

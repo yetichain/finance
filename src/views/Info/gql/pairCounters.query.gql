@@ -1,0 +1,9 @@
+query pairCounters($pairAddress: Bytes!) {
+  pairDayDatas(first: 2, orderBy: date, orderDirection: desc, where: { pairAddress: $pairAddress }) {
+    dailyVolumeUSD
+    reserveUSD
+    dailyTxns
+    reserve0
+    reserve1
+  }
+}

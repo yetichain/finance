@@ -1,0 +1,15 @@
+fragment PairTableData on Pair {
+  id
+  name
+  token0 {
+    id
+    symbol
+  }
+  token1 {
+    id
+    symbol
+  }
+  reserveUSD
+  volumeUSD
+  block
+}

@@ -1,0 +1,11 @@
+query topPairsByIds($first: Int = 500, $block24h: Int!, $block7d: Int!, $ids: [ID!]!) {
+  now: pairs(first: $first, where: { id_in: $ids }) {
+    ...PairTableData
+  }
+  h24: pairs(first: $first, block: { number: $block24h }, where: { id_in: $ids }) {
+    ...PairTableData
+  }
+  d7: pairs(first: $first, block: { number: $block7d }, where: { id_in: $ids }) {
+    ...PairTableData
+  }
+}

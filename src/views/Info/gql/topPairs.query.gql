@@ -1,0 +1,11 @@
+query topPairs($first: Int = 500, $block24h: Int!, $block7d: Int!) {
+  now: pairs(first: $first) {
+    ...PairTableData
+  }
+  h24: pairs(first: $first, block: { number: $block24h }) {
+    ...PairTableData
+  }
+  d7: pairs(first: $first, block: { number: $block7d }) {
+    ...PairTableData
+  }
+}

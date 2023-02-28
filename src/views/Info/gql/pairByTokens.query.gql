@@ -1,0 +1,20 @@
+query pairByTokens($token0: String!, $token1: String!) {
+  pairs(first: 1, where: { token0: $token0, token1: $token1 }) {
+    id
+
+    token0 {
+      id
+      symbol
+      derivedUSD
+    }
+    token0Price
+
+    token1 {
+      id
+      symbol
+      derivedUSD
+    }
+
+    token1Price
+  }
+}

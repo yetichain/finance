@@ -1,0 +1,15 @@
+schema:
+  - 'https://api.studio.thegraph.com/query/1712/alium-exchange-bsc/0.1.5'
+  - 'https://api.thegraph.com/subgraphs/name/venomprotocol/bsc-blocks'
+overwrite: true
+
+documents: src/views/Info/**/*.gql
+
+generates:
+  src/views/Info/generated/index.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    config:
+      withHooks: true

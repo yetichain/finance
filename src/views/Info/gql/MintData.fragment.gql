@@ -1,0 +1,18 @@
+fragment MintData on Mint {
+  id
+  timestamp
+  pair {
+    token0 {
+      id
+      symbol
+    }
+    token1 {
+      id
+      symbol
+    }
+  }
+  to
+  amount0
+  amount1
+  amountUSD
+}

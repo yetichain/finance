@@ -1,0 +1,11 @@
+query transactionsByPairs($first: Int = 100, $pairs: [String!]) {
+  mints(first: $first, orderBy: timestamp, orderDirection: desc, where: { pair_in: $pairs }) {
+    ...MintData
+  }
+  swaps(first: $first, orderBy: timestamp, orderDirection: desc, where: { pair_in: $pairs }) {
+    ...SwapData
+  }
+  burns(first: $first, orderBy: timestamp, orderDirection: desc, where: { pair_in: $pairs }) {
+    ...BurnData
+  }
+}

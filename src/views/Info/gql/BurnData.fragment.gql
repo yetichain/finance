@@ -1,0 +1,18 @@
+fragment BurnData on Burn {
+  id
+  timestamp
+  pair {
+    token0 {
+      id
+      symbol
+    }
+    token1 {
+      id
+      symbol
+    }
+  }
+  sender
+  amount0
+  amount1
+  amountUSD
+}

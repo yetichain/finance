@@ -1,0 +1,19 @@
+query token($id: ID!) {
+  token(id: $id) {
+    id
+    symbol
+    name
+    derivedBNB
+    derivedUSD
+    tradeVolumeUSD
+    totalTransactions
+    totalLiquidity
+
+    tokenDayData(first: 2, orderBy: date, orderDirection: desc) {
+      priceUSD
+      dailyVolumeUSD
+      totalLiquidityUSD
+      dailyTxns
+    }
+  }
+}

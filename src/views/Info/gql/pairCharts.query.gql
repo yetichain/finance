@@ -1,0 +1,7 @@
+query pairCharts($pairAddress: Bytes!) {
+  pairDayDatas(first: 1000, orderBy: date, orderDirection: desc, where: { pairAddress: $pairAddress }) {
+    dailyVolumeUSD
+    reserveUSD
+    date
+  }
+}

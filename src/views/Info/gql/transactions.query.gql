@@ -1,0 +1,11 @@
+query transactions($first: Int = 100) {
+  mints(first: $first, orderBy: timestamp, orderDirection: desc) {
+    ...MintData
+  }
+  swaps(first: $first, orderBy: timestamp, orderDirection: desc) {
+    ...SwapData
+  }
+  burns(first: $first, orderBy: timestamp, orderDirection: desc) {
+    ...BurnData
+  }
+}

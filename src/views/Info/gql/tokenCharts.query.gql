@@ -1,0 +1,8 @@
+query tokenCharts($token: String!) {
+  tokenDayDatas(first: 1000, orderBy: date, orderDirection: desc, where: { token: $token }) {
+    priceUSD
+    dailyVolumeUSD
+    totalLiquidityUSD
+    date
+  }
+}

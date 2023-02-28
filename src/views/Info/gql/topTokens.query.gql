@@ -1,0 +1,12 @@
+query topTokens {
+  tokens(first: 500, orderBy: totalLiquidity, orderDirection: desc) {
+    id
+    name
+    symbol
+    tokenDayData(first: 2, orderBy: date, orderDirection: desc) {
+      priceUSD
+      dailyVolumeUSD
+      totalLiquidityUSD
+    }
+  }
+}

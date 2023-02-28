@@ -1,0 +1,7 @@
+query overviewCharts {
+  aliumDayDatas(first: 1000, orderBy: date, orderDirection: desc) {
+    date
+    dailyVolumeUSD
+    totalLiquidityUSD
+  }
+}

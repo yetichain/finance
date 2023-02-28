@@ -1,0 +1,9 @@
+query tokenPairs($token: String!) {
+  asToken0: pairs(first: 100, where: { token0: $token }) {
+    id
+  }
+
+  asToken1: pairs(first: 100, where: { token1: $token }) {
+    id
+  }
+}
