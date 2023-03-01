@@ -6,7 +6,7 @@ This project contains the main features of YETI Finance.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 
-## Launch YETI frontend into development mode
+## Launch YETI Finance into development mode
 
 ### 1. Requirements
 
