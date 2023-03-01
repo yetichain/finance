@@ -1,5 +1,7 @@
 # YETI Finance
 
+![yet](https://user-images.githubusercontent.com/118218938/222215307-c9a95839-b229-432d-8e28-b53fe4d8f95a.png)
+
 This project contains the main features of YETI Finance.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
