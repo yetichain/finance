@@ -41,7 +41,7 @@ export default function BonusNft({ poolId }: BonusNftProps) {
       <BonusNft.Info>
         <Title>{t('Bonus NFT')}</Title>
         <BonusNft.Counter>X{nftCounter.toString()}</BonusNft.Counter>
-        <BonusNft.MoreDetails href='https://cybercity.game/' target='_blank'>
+        <BonusNft.MoreDetails href='https://yetichain.art/' target='_blank'>
           {t('More details')}
           <ChevronRightIcon color='currentColor' />
         </BonusNft.MoreDetails>
