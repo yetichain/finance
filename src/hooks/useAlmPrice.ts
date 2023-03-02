@@ -10,7 +10,7 @@ export default function useAlmPrice() {
   const { data } = useSWR<string>(
     'useAlmPrice',
     async () => {
-      const response = await fetchTokenPriceFromCoingecko('alium-swap')
+      const response = await fetchTokenPriceFromCoingecko('alium-finance')
       const price = response?.data?.market_data?.current_price?.usd
 
       if (!price) return undefined
