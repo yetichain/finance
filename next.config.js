@@ -4,6 +4,7 @@ const env = require(APP_ENV === 'development' ? './.env.development.js' : './.en
 
 module.exports = {
   i18n,
+  devtool: "source-map",
   env: { APP_ENV, ...env },
   generateBuildId: async () => String(Math.round(Number(new Date()) / 1000)),
   distDir: 'build',
